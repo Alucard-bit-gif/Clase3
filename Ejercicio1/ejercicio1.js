@@ -1,1 +1,1 @@
-Este es el archivo dos creado en git
+/*Este es el archivo dos creado en git*/
