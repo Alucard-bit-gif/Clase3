@@ -8,8 +8,8 @@ let N2;
 let Suma = 0;
 
 //Leer datos//
-N1 = Number(prompt('Ingrese el valor para Número 1'));
-N2 = Number(prompt('Ingrese el valor para Número2'));
+/*N1 = Number(prompt('Ingrese el valor para Número 1'));
+N2 = Number(prompt('Ingrese el valor para Número2'));*/
 
 //Realizar proceso//
 
