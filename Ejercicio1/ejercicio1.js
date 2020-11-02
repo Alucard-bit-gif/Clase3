@@ -112,19 +112,36 @@ mainAnswer.innerHTML = `${textToShow}`;
 //Inicio//
 //Declarar Variables//
 
+let nameSon1 = "Juan";
+let nameSon2 = "Alberto";
+let nameDaughter = "Ana";
+
 let ageJuan = 27;
 let ageAlberto = (ageJuan*2)/3;
-let ageAna = (ageJuan*4)/4;
+let ageAna = (ageJuan*4)/3;
 let ageMamá = ageJuan + ageAlberto + ageAna;
 
+let momAge = false;
+let broAge = true;
 
+//Realizar proceso
+let textJuan = `Buen dia ni nombre es ${nameSon1} y mi edad es de ${broAge && ageJuan} años.<br>`;
+let textAlberto = `Hola yo soy ${nameSon2} tengo ${momAge || ageAlberto} años.<br>`;
+let textAna = `Yo ${nameDaughter} soy la mayor y cuento con ${ageAna} años.<br>`;
 
-
+let textMom = `En conclusión yo Doña María tengo la edad de ${ageMamá} y me declaran como ${momAge && broAge} y no sé porqué. `
 
 document.querySelector(".rNumTres").innerHTML = "Respuesta";
 
+let answerOne = `${textJuan}<br>
+                 ${textAlberto}<br>
+                 ${textAna}<br>`;
+let answerTwo = `${textMom}`; 
 
+let textToShowU = `${answerOne} ${answerTwo}`;  
 
+let ultimateAnswer = document.querySelector('.rTres'); 
+ultimateAnswer.innerHTML = `${textToShowU}`;
 
 
 
