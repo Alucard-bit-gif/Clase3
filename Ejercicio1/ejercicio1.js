@@ -51,7 +51,7 @@ document.querySelector(".rUno").innerHTML = ("Promedio de notas en lógica y pro
 
 //--------------------------------------------------------------------------------------------------------->//
 
-//Problema 1 "Promedio de notas"//
+//Problema 2 "Participación inversionistas"//
 //Inicio//
 //Declarar Variables//
 
@@ -104,9 +104,24 @@ document.querySelector(".rNumDos").innerHTML = "Respuesta";
 
 let mainAnswer = document.querySelector('.rDos');
 mainAnswer.innerHTML = `${textToShow}`;
+//Final//
+
+//------------------------------------------------------------------------------------------------------------>//
+
+//Problema 3 "La Edad de madre e hijos"//
+//Inicio//
+//Declarar Variables//
+
+let ageJuan = 27;
+let ageAlberto = (ageJuan*2)/3;
+let ageAna = (ageJuan*4)/4;
+let ageMamá = ageJuan + ageAlberto + ageAna;
 
 
 
+
+
+document.querySelector(".rNumTres").innerHTML = "Respuesta";
 
 
 
