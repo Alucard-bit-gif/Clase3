@@ -8,25 +8,40 @@
   
   nav {
     background-color: rgb(10, 43, 235, 0.815);  
+    padding:15px;
   }
   
-  #button li {
+  ul {
+
     display: inline;
-    padding-left: 1px;
-    padding-right: 1px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    text-align: center;
-    border-radius: 66px;
-    border: 33px solid rgb(241, 9, 9)
+    
+    font-family: Arial, Helvetica, sans-serif;
+         
+
+  }
+
+
+  #button li {
+    display:inline;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    border:0px solid  rgba(9, 219, 226, 0.507);
+    margin:46px;
+    background-color:rgba(255, 251, 0, 0.979);
+    
+    
+    
     
   }
   
   
   
   a:link {
-    font-size:30px;
-    color: white;
+    font-size:20px;
+    color:rgb(255, 255, 255);
     text-decoration:none;
   }
   
