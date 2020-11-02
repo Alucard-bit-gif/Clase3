@@ -68,19 +68,14 @@
     color: rgb(245, 8, 8);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 55px;
-  }
-
-  h4 {color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 35px;}
+    font-size: 55px;  
+}
 
 
-  .lab1{
+.lab1{
     
     background-color: rgba(20, 218, 30, 0.842);
-  }
+}
 
 
   .lab2{
@@ -91,26 +86,16 @@
     font-size: 40px;
     
   }
-
-
-
-
-  #img-n{
+  h4 {color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-top: 10px;
-  }
-  
-  #img-k{
+    font-size: 35px;}
+
+  h5 {color: rgb(8, 148, 241);
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-top: 10px;
-  }
-  
-  #img-w{
-    text-align: right;
-    margin-top: 10px;
-  }
-  
-  
+    font-size: 30px;}
+
 
     p
     {
