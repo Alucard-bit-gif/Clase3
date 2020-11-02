@@ -40,7 +40,9 @@ let promedNotas = (totalParciales*pesoParciales) + (exaFinal*pesoexaFinal) + (pr
 
 console.log("Promedio de notas en lógica y programación es :" + " " + promedNotas);
 
+document.querySelector(".rNumUno").innerHTML = "Respuesta";
 
+document.querySelector(".rUno").innerHTML = ("Promedio de notas en lógica y programación es :" + " " + promedNotas);
 
 
 
